@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StockHub</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3 sticky-top  ">
+        <div class="container">
+          <a class="navbar-brand text-success" href="#"><strong> Stock Hub </strong></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Stocks</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Mutual Funds</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Study
+                </a>
+                <ul class="dropdown-menu" style="background-color: lightgray;" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="">Technical Analysis</a></li>
+                  <li><a class="dropdown-item" href="">Fundamental Analysis</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="">Programs</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Showcase -->
+
+      <section class="text-center p-5 p-lg-0 text-light text-sm-start bg-dark">
+          <div class="container">
+              <div class="d-sm-flex align-items-center justify-content-between">
+                  <div>
+                    <h1>Become a <span class="text-success">Stock Trader</span></h1>
+                    <p class="lead mt-4">Stock Hub Academy is the best stock market institute that provides the most simplified and to-the-point stock market course from the scratch for beginners.</p>
+                    <button class="btn btn-success px-5 mt-4" data-bs-toggle="modal" data-bs-target="#enrollment">Get Enrolled</button>
+                  </div>
+                  <img class="img-fluid w-50 d-none d-sm-block" src="images/Trader.svg" alt="">
+              </div>
+          </div>
+      </section>
+
+      <!-- Cards -->
+
+      <section>
+        <div class="container align-items-center my-5">
+          <div class="row">
+            <div class="col-md g-4">
+              <div class="card shadow" style="width: 18rem; height: 30rem; background-color: white; border-radius: 15px;">
+                <img src="images/investment.svg" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Learn from Scratch</h5>
+                  <p class="card-text">Learn the basics of the stock market, to enhance the understanding of how does the Stock market works and what makes you earn in the market.</p>
+                  <a href="#" class="btn btn-success">Start Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md g-4">
+              <div class="card shadow" style="width: 18rem; height: 30rem; background-color: white; border-radius: 15px;">
+                <img src="images/mentor.svg" class="card-img-top my-5 img-fluid" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Mentorship</h5>
+                  <p class="card-text">Special hand holding by market experts, to help you achieve success in trading.</p>
+                  <a href="#" class="btn btn-success">Start Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md g-4">
+              <div class="card shadow" style="width: 18rem; height: 30rem; background-color: white; border-radius: 15px;">
+                <img src="images/collab.svg" class="card-img-top  my-3 img-fluid" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Collaboration</h5>
+                  <p class="card-text">Get new ideas to trad efrom expert analysts and like minded people.</p>
+                  <a href="#" class="btn btn-success">Start Now</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        </div>
+      </section>
+
+      <!-- Grid1 -->
+
+      <section class="p-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg">
+              <img src="images/analysis.svg" class="img-fluid" alt="" style="width: 75%;">
+            </div>
+            <div class="col-md">
+              <h2>Safe Investing in Mutual Funds</h2>
+              <p class="lead mt-4">We provide a detail technical and fundamental analysis for investing so that you can have a safe and enjoyable experience while investing in mutual funds.</p>
+              <p class="lead mt-4">Also provide all the entries and exits available in the market.</p>
+              <button class="btn btn-success mt-4">Read More</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Grid2 -->
+
+      <section class="p-5 bg-dark text-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg mt-5">
+              <h2>Pro Traders Mentorship Program</h2>
+              <p class="lead my-4">Pro Traders Mentorship Program aims to make you a professional trader with detailed knowledge of how and when to enter/exit the trade and book logical profits.</p>
+              <p class="lead my-4">It includes strategies varrying to every trader's style, advanced in-depth scenerio of the current markets, F&O and much more.</p>
+              <button class="btn btn-success my-4">Read More</button>
+            </div>
+            <div class="col-md justify-content-center text-center">
+              <img src="images/membership.svg" class="img-fluid" alt="" style="width: 65%;">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Accordion -->
+
+      <section class="my-5">
+        <div class="container">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-controls="collapseOne">
+                  Why Investing ?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the first question that comes to everyones mind.</strong> Considering the speed of growing markets and inflation scale keeping your hard earned money in banks just reduceses its value. Investing not only gives positive returns but also safe guard your capital in multiple way. 
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Stocks or Mutual Fund ?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Why not both.</strong> Its all about risk management. Higher the risk, Higher the rewards this comes with stocks, in mutual funds risks are lower so the returns. Keeping both gives you better overall returns as well keeps you risk lower. 
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  What about Demat Account ?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>We got you covered.</strong> We will help you open your demat account also train you in detail about it.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                  Do you have any courses ?
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>A bunch of them.</strong> We have a variety of courses designed for various individual depending on their needs, levels from beginners, intermediate and also experts. You can access our catalog <a href="#">from here.</a> 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Instructors -->
+      
+      <section class="text-center bg-dark text-light p-5">
+        <div class="container">
+          <h2>Our Instructors</h2>
+          <p class="lead">Our instructors all have 5+ years of experience as price analysts in the industry.</p>
+          <div class="row">
+            <div class="col-md-6 col-lg-3 g-4">
+              <div class="card">
+                <div class="card-body bg-light text-dark">
+                  <img src="images/saurabh.jpg" alt="" class="rounded-circle img-fluid mb-3">
+                  <h3 class="card-title mb-3">Saurabh Thorat</h3>
+                  <p class="card-text mb-3">With 5+ years experience as fundamental analyst.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 g-4 text-dark">
+              <div class="card">
+                <div class="card-body bg-light">
+                  <img src="images/ganesh.jpg" alt="" class="rounded-circle img-fluid mb-3">
+                  <h3 class="card-title mb-3">Ganesh Gorder</h3>
+                  <p class="card-text mb-3">With 10+ years experience as technical analyst.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 g-4 text-dark">
+              <div class="card">
+                <div class="card-body bg-light">
+                  <img src="images/sameer.jpg" alt="" class="rounded-circle img-fluid mb-3">
+                  <h3 class="card-title mb-3">Sameer Pawar</h3>
+                  <p class="card-text mb-3">With 8+ years experience as price action expert.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 g-4 text-dark">
+              <div class="card">
+                <div class="card-body bg-light">
+                  <img src="images/tushar.jpg" alt="" class="rounded-circle img-fluid mb-3">
+                  <h3 class="card-title mb-3">Tushar Gaware</h3>
+                  <p class="card-text mb-3">With 7+ years experience as price action expert.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Us -->
+
+      <section>
+        <div class="container mt-5 ">
+          <div class="row">
+            <div class="col-md">
+              <h2 class="mb-4">About us</h2>
+              <p class="lead mt-3">Stock Hub is an initiative for the fast growing generation interested in personal finance and willing to become financially independent as earliest. We provide knowledge based on self-learning, experience, and theoretical implications on the market.</p>
+            </div>
+            <div class="col-md">
+              <h2 class="text-center mb-4">Contact Info</h2>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"><Span><strong> Address: </strong></Span> WTC Kharadi, Pune-411014.</li>
+                <li class="list-group-item"><Span><strong> Addmission Inquiry: </strong></Span> +9665307459</li>
+                <li class="list-group-item"><Span><strong> Demat Counselling: </strong></Span> +8652314591</li>
+                <li class="list-group-item"><Span><strong> Email Id: </strong></Span><a href="mailto:enquiry@stockhub.com">enquiry@stockhub.com</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Footer -->
+
+      <footer class="p-3 mt-5 text-light bg-dark text-center postion-relative">
+        <div class="container">
+          <p class="lead">Copyrights &copy; reserved.</p>
+        </div>
+      </footer>
+
+      <div class="modal fade" id="enrollment" tabindex="-1" aria-labelledby="enrollmentLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="enrollmentLabel">Enrollment Form</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p class="lead">Fill out this form and we will get back to you soon.</p>
+              <form>
+                <div class="pb-5">
+                  <label for="first-name" class="col-form-label">First Name:</label>
+                  <input type="text" class="form-control">
+                  <label for="second-name" class="col-form-label">Last Name:</label>
+                  <input type="text" class="form-control">
+                  <label for="email-id" class="col-form-label">Email Id:</label>
+                  <input type="text" class="form-control">
+                  <label for="mobile-number" class="col-form-label">Phone:</label>
+                  <input type="number" class="form-control">
+                  <label for="What" class="col-form-label">What are you searching for ? </label>
+                  <input type="text" class="form-control">
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
